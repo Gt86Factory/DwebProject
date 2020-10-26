@@ -1,9 +1,9 @@
 
 body {margin:0px;}
 
-#anthony{background-color:black;}
+#anthony{background-color:green;}
 
-#Gtitre {color:blue;
+#Gtitre{color:blue;
 	right:15%;
 	top:10%;
 	position:absolute;
@@ -19,3 +19,9 @@ left:105px;}
 	background-color:blue;
 	border:1px solid black;
  border-radius: 50%;}
+
+.Pierre{ line-height:2em;
+		text-align:center;}
+
+.titre {text-align:center;
+	line-height:3em;}
