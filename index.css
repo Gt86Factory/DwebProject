@@ -1,7 +1,7 @@
 
 body {margin:0px;}
 
-#anthony{background-color:green;}
+#anthony{background-color:#1E1E1E;}
 
 #Gtitre{color:blue;
 	right:15%;
@@ -10,10 +10,12 @@ body {margin:0px;}
 		margin:0px; 
 		font-size:50px;}
 
+#diff{color:#00E8FF;}
+
 	#logo{margin-left:200px;
 		position:absolute;
 		top:50px;
-left:105px;}
+		left:105px;}
 
 #logo2{margin-left:200px;
 	background-color:blue;
@@ -25,3 +27,6 @@ left:105px;}
 
 .titre {text-align:center;
 	line-height:3em;}
+
+#simplon{font-family:"Arial Black", Gadget, sans-serif;
+	font-size:20px;}
