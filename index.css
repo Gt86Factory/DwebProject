@@ -6,6 +6,7 @@ p {font-family:"Comic Sans MS", cursive, sans-serif;}
 #anthony{background-color:#1E1E1E;}
 
 #Gtitre{color:blue;
+	text-decoration:underline;
 	right:15%;
 	top:10%;
 	position:absolute;
