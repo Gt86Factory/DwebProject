@@ -1,20 +1,18 @@
-//Dust Particles Simulation by bionicoz based on
-//Basic Particle Animation
-//Author: Brandon John-Freso
-$(function () {
+
+function () {
     var W, H,
-        canvas, ctx, //ctx stands for context and is the "curso" of our canvas element.
+        canvas, ctx,
         particleCount = 700,
-        particles = []; //this is an array which will hold our particles Object/Class
+        particles = [];
 
     W = window.innerWidth ;
     H = window.innerHeight ;
     
-    canvas = $("#canvas").get(0); //this "get(0) will pull the underlying non-jquery wrapped dom element from our selection
+    canvas = $("#canvas").get(0);
     canvas.width = W;
     canvas.height = H;
 
-    ctx = canvas.getContext("2d"); // settng the context to 2d rather than the 3d WEBGL
+    ctx = canvas.getContext("2d");
     ctx.globalCompositeOperation = "lighter";
     console.log(ctx);
     var mouse = {
@@ -28,7 +26,7 @@ $(function () {
     
 
 
-    document.addEventListener('mousemove', function(e){ 
+document.addEventListener('mousemove', function(e){ 
         
         mouse.x = e.clientX || e.pageX; 
         mouse.y = e.clientY || e.pageY;
