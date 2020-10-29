@@ -3,15 +3,37 @@ body {margin:0px;}
 h2 {font-family:"Arial Black", Gadget, sans-serif;}
 p {font-family:"Comic Sans MS", cursive, sans-serif;}
 
-#anthony{background-color:#1E1E1E;}
+#anthony{background-color:#E3E3E3;}
 
-#Gtitre{color:blue;
-	text-decoration:underline;
+#Gtitre{margin-right:500px;
+	color:blue;
 	right:15%;
-	top:10%;
-	position:absolute;
-		margin:0px; 
-		font-size:50px;}
+	top:10%; 
+	font-size:50px;
+	position: absolute;
+    transform: translate(50%,-50%);
+    text-transform: uppercase;
+    font-family: verdana;
+    font-weight: 700;
+    color: #f5f5f5;
+    text-shadow: 1px 1px 1px #919191,
+        1px 2px 1px #919191,
+        1px 3px 1px #919191,
+        1px 4px 1px #919191,
+        1px 5px 1px #919191,
+        1px 6px 1px #919191,
+        1px 7px 1px #919191,
+        1px 8px 1px #919191,
+        1px 9px 1px #919191,
+        1px 10px 1px #919191,
+    1px 18px 6px rgba(16,16,16,0.4),
+    1px 22px 10px rgba(16,16,16,0.2),
+    1px 25px 35px rgba(16,16,16,0.2),
+    1px 30px 60px rgba(16,16,16,0.4);}
+
+
+
+
 
 #diff{color:#00E8FF;}
 
@@ -42,13 +64,22 @@ p {font-family:"Comic Sans MS", cursive, sans-serif;}
   font-size: 25px;
 }
 
+#img1 {float:right;
+margin-right:200px;}
+#img2 {float:left;
+margin-left:200px;}
 
-.Pierre{line-height:2em;
+.text1{line-height:2em;
 		text-align:center;
-		background-color:#E3E3E3;}
+		background-color:#E3E3E3;
+	text-align:left;
+	margin-left:200px;
+margin-right:900px;}
 
-.Pierre1{line-height:2em;
-		text-align:center;}
+.text2{line-height:2em;
+		text-align:right;
+		margin-left:900px;
+margin-right:200px;}
 
 .titre {text-align:center;
 	line-height:3em;}
@@ -56,5 +87,4 @@ p {font-family:"Comic Sans MS", cursive, sans-serif;}
 #simplon{font-family:"Arial Black", Gadget, sans-serif;
 	font-size:20px;}
 
-#fin {background-color:#E3E3E3;
-		text-align: center;}
+#fin {background-color:#E3E3E3;}
