@@ -1,11 +1,42 @@
 html {scroll-behavior: smooth;}
-body {margin:0px;}
-h2 {font-family:"Arial Black", Gadget, sans-serif;}
-p {font-family:"Comic Sans MS", cursive, sans-serif;}
 
-#anthony{background-color:#E3E3E3;}
+body {margin:0px;
+min-width: 600px;}
 
-#Gtitre{margin-right:500px;
+h2 {font-family:"Arial Black", Gadget, sans-serif;
+font-weight: 700;
+text-shadow: 1px 1px 1px #919191,
+        1px 2px 1px #919191,
+        1px 3px 1px #919191,
+        1px 4px 1px #919191,
+        1px 5px 1px #919191,
+        1px 6px 1px #919191,
+        1px 7px 1px #919191,
+        1px 8px 1px #919191,
+        1px 9px 1px #919191,
+        1px 10px 1px #919191,
+    1px 18px 6px rgba(16,16,16,0.4),
+    1px 22px 10px rgba(16,16,16,0.2),
+    1px 25px 35px rgba(16,16,16,0.2),
+    1px 30px 60px rgba(16,16,16,0.4);}
+
+p {font-family:"Futura, Trebuchet MS, Arial", sans-serif;}
+main {top: 0px;
+    z-index: -1;
+    position: fixed; 
+}
+
+#debut{border-radius:2%;
+	background-color:white;
+margin-top:100px;
+margin-right:100px;
+margin-left:100px;}
+
+#anthony{background-color:#E3E3E3;
+justify-content: center;
+    flex-wrap: wrap;}
+
+#Gtitre{margin-right:300px;
 	color:blue;
 	right:15%;
 	top:10%; 
@@ -32,17 +63,14 @@ p {font-family:"Comic Sans MS", cursive, sans-serif;}
     1px 30px 60px rgba(16,16,16,0.4);}
 
 
-
-
-
 #diff{color:#00E8FF;}
 
-	#logo{margin-left:190px;
+	#logo{margin-left:90px;
 		position:absolute;
 		top:50px;
 		left:105px;}
 
-#logo2{margin-left:200px;
+#logo2{margin-left:100px;
 	background-color:blue;
 	border:1px solid black;
  border-radius: 50%;}
@@ -64,7 +92,7 @@ p {font-family:"Comic Sans MS", cursive, sans-serif;}
   cursor: pointer;
   position: relative;
   display: inline-block;
-  background: linear-gradient(to bottom, #000, #000 50%, #fff 50%, #fff 100%);
+  background: linear-gradient(to bottom, gray, lightgray 50%, #fff 50%, #fff 100%);
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
@@ -76,23 +104,62 @@ p {font-family:"Comic Sans MS", cursive, sans-serif;}
 .navbar a:hover {
   background-position: 0 15px;}
 
+#home {justify-content: center;
+    flex-wrap: wrap;}
+
+#idée{justify-content: center;
+	    flex-wrap: wrap;}
+
+#place{justify-content: center;
+    flex-wrap: wrap;}
+
+#simplon{justify-content: center;
+    flex-wrap: wrap;}
+
 #img1 {float:right;
-margin-right:200px;}
+	align-self: center;
+    width: 300px;
+    height: auto;
+    margin: 15px;
+margin-right:30px;
+min-width: 300px;}
+
+
 #img2 {float:left;
-margin-left:200px;}
+	align-self: center;
+	padding-top:50px;
+    width: 400px;
+    height: auto;
+    margin: 15px;}
 
-.text1{line-height:2em;
-		text-align:center;
-		background-color:#E3E3E3;
-	text-align:left;
-	margin-left:200px;
-margin-right:900px;}
+#img3{float:right;
+	align-self: center;
+	padding-right:30px;
+    width: 300px;
+    height: 260px;
+    margin: 15px;}
 
-.text2{line-height:2em;
-		text-align:right;
-		margin-left:900px;
-margin-right:200px;}
+#img4{
+	float:left;
+	align-self: center;
+    width: 200px;
+    margin-left:100px; 
+    height: auto;}
 
+
+.text1{
+	flex: 1;
+    line-height: 2em;
+    background-color: #E3E3E3;
+    text-align: justify;
+    padding: 15px;
+    margin: 0 15px}
+
+.text2{margin-left:450px;
+	text-align:justify;
+		flex:1;
+		line-height:2em;
+		padding: 15px;}
 .titre {text-align:center;
 	line-height:3em;}
 
